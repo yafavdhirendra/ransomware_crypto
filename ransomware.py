@@ -12,3 +12,15 @@ SKP_DIRS = {".git", "__pycache__", "venv", "boss"}
 SKIP_FILES = {"salt.bin"}
 
 selected_files = []
+
+# derive key from password + salt
+def derive_key(password, salt):
+    kdf = Scrypt(
+        salt=salt,
+        length=32,
+        n=2**14,
+        r=8,
+        p=1,
+        backend=default_backend()
+    )
+    return base64.urlsafe_b64encode(kdf.derive(password.encode()))
