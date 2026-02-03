@@ -35,3 +35,13 @@ def collect_files(folder):
                 continue
             file_list.append(os.path.join(root, f))  # full path
     return file_list
+
+# 📄 select single file
+def select_file():
+    selected_files.clear()
+    listbox.delete(0, tk.END)
+
+    file = filedialog.askopenfilename()
+    if file:
+        selected_files.append(file)
+        listbox.insert(tk.END, file)
