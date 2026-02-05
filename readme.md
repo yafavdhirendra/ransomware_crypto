@@ -25,3 +25,16 @@ This project is ideal for learning **practical cryptography, secure file handlin
 
   * `Fernet` (AES-based symmetric encryption)
   * `Scrypt` (password-based key derivation)</br></hr>
+  ---
+
+## 📦 Requirements
+
+Install dependencies using:
+
+```bash
+pip install cryptography
+```
+
+Tkinter comes pre-installed with most Python distributions.
+
+---<br><hr>
