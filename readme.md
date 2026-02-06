@@ -15,7 +15,6 @@ This project is ideal for learning **practical cryptography, secure file handlin
 * 🧂 Uses **salt + Scrypt KDF** to derive a secure key
 * 🖥️ Clean and interactive **Tkinter GUI**
 
-<hr><b>AUTHOR:- Dhirendra Yadav<br>1st sem Project..</br> </b>
 <hr>
 <br>## 🛠️ Technologies Used
 
@@ -25,7 +24,7 @@ This project is ideal for learning **practical cryptography, secure file handlin
 
   * `Fernet` (AES-based symmetric encryption)
   * `Scrypt` (password-based key derivation)</br></hr>
-  ---
+---
 
 ## 📦 Requirements
 
@@ -38,3 +37,4 @@ pip install cryptography
 Tkinter comes pre-installed with most Python distributions.
 
 ---<br><hr>
+<hr><b>AUTHOR:- Dhirendra Yadav<br>1st sem Project..</br> </b>
