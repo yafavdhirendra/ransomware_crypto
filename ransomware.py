@@ -63,3 +63,17 @@ def select_folder():
     for f in files:
         selected_files.append(f)
         listbox.insert(tk.END, f)
+
+# 🔒 encrypt selected files
+def encrypt_files():
+    password = password_entry.get()
+    if not password:
+        messagebox.showerror("Error", "Password required")
+        return
+
+    chosen = listbox.curselection()
+    if not chosen:
+        messagebox.showerror("Error", "Select at least one file")
+        return
+
+    files = [listbox.get(i) for i in chosen]
