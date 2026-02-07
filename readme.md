@@ -36,5 +36,17 @@ pip install cryptography
 
 Tkinter comes pre-installed with most Python distributions.
 
----<br><hr>
+---<br>
+<hr>
+<br>
+## 🚀 How It Works (High-Level)
+
+1. User selects a **file or folder**
+2. User enters a **password**
+3. A **salt** is generated (or reused)
+4. Password + salt → **secure key** (via Scrypt)
+5. Files are encrypted/decrypted using **Fernet**
+6. A marker `# ENCRYPTED` prevents double encryption
+
+---</br>
 <hr><b>AUTHOR:- Dhirendra Yadav<br>1st sem Project..</br> </b>
