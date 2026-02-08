@@ -22,7 +22,7 @@ This project is ideal for learning **practical cryptography, secure file handlin
   * `Scrypt` (password-based key derivation)</br></hr>
 
 ## Quick Start 
-```
+```bash 
 # Clone the repository
 git clone https://github.com/yafavdhirendra/ransomware_adv.git
 cd ransomeware_adv
