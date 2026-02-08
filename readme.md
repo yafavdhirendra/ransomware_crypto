@@ -21,6 +21,19 @@ This project is ideal for learning **practical cryptography, secure file handlin
   * `Fernet` (AES-based symmetric encryption)
   * `Scrypt` (password-based key derivation)</br></hr>
 
+## Quick Start 
+```
+# Clone the repository
+git clone https://github.com/yafavdhirendra/ransomware_adv.git
+cd ransomeware_adv
+
+# run the main file
+python3 ransomware.py
+```
+
+**Expected Output**
+[ADD YOUR APPLICATION HOMEPAGE SCREENSHORT HERE]
+
 ## Project Structure
 ```
 ├── ransomware.py
