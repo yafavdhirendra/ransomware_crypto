@@ -42,7 +42,7 @@ python3 ransomware.py
 
 ## Requirements
 
-Install dependencies using:
+Install dependencies using
 
 ```bash
 pip install cryptography
