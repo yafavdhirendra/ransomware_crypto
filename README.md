@@ -39,8 +39,15 @@ python3 ransomware.py
 
 ## Project Structure
 ```
-├── ransomware.py
-├── readme.md
+file-encryption-tool/
+│
+├── main.py              # GUI + app start (RUN THIS)
+├── crypto_utils.py      # Key derivation + encrypt/decrypt logic
+├── file_utils.py        # File/folder selection & filtering
+├── config.py            # Skip files/folders constants
+├── requirements.txt     # Dependencies            
+└── README.md            # Project explanation
+
 ```
 
 ## Requirements
