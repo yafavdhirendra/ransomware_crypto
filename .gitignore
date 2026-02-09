@@ -4,3 +4,10 @@ ransome
 /build
 red
 m.py
+requirements.txt
+crypto_utils.py
+file_utils.py
+config.py
+salt.bin
+__pycache__/
+venv/
