@@ -4,7 +4,11 @@ A Python GUI application that allows you to **encrypt and decrypt files or entir
 This project is ideal for learning **practical cryptography, secure file handling, and GUI development**, especially for **cybersecurity students**.
 
 ## Learning Objectives
-[ADD LEARNING OBJECTIVES FROM THE PROJECT]
+- Understand how ransomware-like techniques work (for educational purposes).
+
+- Learn the ethical responsibility of using cryptographic tools.
+
+- Recognize real-world risks of improper encryption usage.
 
 ## Features
 - **Password-based encryption** (no hardcoded secret key)
