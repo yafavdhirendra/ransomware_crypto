@@ -35,7 +35,8 @@ git clone https://github.com/yafavdhirendra/ransomware_adv.git
 cd ransomeware_adv
 
 # run the main file
-python3 ransomware.py
+python3 main.py  # windows
+python main.py   # Linux
 ```
 
 **Expected Output**
