@@ -5,8 +5,11 @@ ransome
 red
 m.py
 requirements.txt
-file_utils.py
 salt.bin
 __pycache__/
 venv/
 tkw.py
+file_selector.py
+decryptor.py
+encryptor.py
+gui.py
