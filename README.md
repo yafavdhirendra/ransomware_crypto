@@ -46,11 +46,15 @@ python main.py   # Linux
 ```
 file-encryption-tool/
 │
-├── main.py              # GUI + app start (RUN THIS)
+├── main.py              # start (RUN THIS)
 ├── crypto_utils.py      # Key derivation + encrypt/decrypt logic
-├── file_utils.py        # File/folder selection & filtering
+├── file_utils.py        # File/folder filtering & collect
 ├── config.py            # Skip files/folders constants
-├── requirements.txt     # Dependencies            
+├── requirements.txt     # Dependencies   
+├── gui.py               # GUI + Tkinter interface
+├── decryptor.py         # Decryption logic 
+├── encryptor.py         # Encryption logic
+├── file_selector.py     # File handling
 └── README.md            # Project explanation
 
 ```
