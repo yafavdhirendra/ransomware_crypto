@@ -10,6 +10,12 @@ This project is ideal for learning **practical cryptography, secure file handlin
 
 - Recognize real-world risks of improper encryption usage.
 
+##  Disclaimer
+
+ **This project is for educational purposes only.**
+
+- Do NOT use this tool for malicious activities or unauthorized encryption. Always encrypt only files you own or have permission to use.
+
 ## Features
 - **Password-based encryption** (no hardcoded secret key)
 - Encrypt / decrypt **single files**
@@ -19,6 +25,12 @@ This project is ideal for learning **practical cryptography, secure file handlin
 - Safe decryption only if the correct password is provided
 - Uses **salt + Scrypt KDF** to derive a secure key
 - Clean and interactive **Tkinter GUI**
+
+## Why `salt.bin` is Needed
+
+* Prevents **rainbow table attacks**
+* Ensures same password ≠ same key every time
+* Must be kept safe (losing it = no decryption)
 
 ## Technologies Used
 
@@ -77,10 +89,18 @@ Tkinter comes pre-installed with most Python distributions.
 - Files are encrypted/decrypted using **Fernet**
 - A marker `# ENCRYPTED` prevents double encryption
 
+##  Future Improvements
+
+- Threading for faster encryption
+- Progress bar
+- Separate salt per folder
+- File extension filter
+- **Logging system**
+
 
 ## License
 This project is licensed under MIT License. See more about [License](/LICENSE).
 
 ## Author
 - **Dhirendra Yadav** - 1st year Student
-- Softwarica College of IT and E-Commerce
+- Softwarica College of IT and E-Commerce kathmandu (**NEPAL**)
