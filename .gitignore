@@ -11,5 +11,4 @@ venv/
 tkw.py
 file_selector.py
 decryptor.py
-encryptor.py
 gui.py
