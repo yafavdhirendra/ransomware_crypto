@@ -6,4 +6,3 @@ salt.bin
 __pycache__/
 venv/
 tkw.py
-gui.py
