@@ -9,5 +9,4 @@ salt.bin
 __pycache__/
 venv/
 tkw.py
-decryptor.py
 gui.py
