@@ -2,9 +2,6 @@ ransome.spec
 ransome
 /dist
 /build
-red
-m.py
-requirements.txt
 salt.bin
 __pycache__/
 venv/
