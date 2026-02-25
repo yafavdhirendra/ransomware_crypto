@@ -16,6 +16,7 @@ def derive_key(password, salt):
         backend=default_backend()
     )
     return base64.urlsafe_b64encode(kdf.derive(password.encode()))
+    
 
 def get_fernet(password, mode="encrypt"):
     if not os.path.exists(SALT_FILE):
