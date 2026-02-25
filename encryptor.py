@@ -3,6 +3,7 @@ from crypto_utils import get_fernet
 
 MARKER = b"\n# ENCRYPTED"
 
+
 def encrypt_files(password, files):
     if not password:
         messagebox.showerror("Error", "Password required")
