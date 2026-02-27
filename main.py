@@ -24,5 +24,6 @@ root = create_gui(
     handle_decrypt
 )
 
+
 root.mainloop()
 
