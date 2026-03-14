@@ -51,7 +51,7 @@ python3 main.py  # windows
 python main.py   # Linux
 ```
 
-**Demo Video**
+**Demo Video :-**
 [![Watch the video](https://img.youtube.com/vi/zO2S1cC7FVM/0.jpg)](https://youtu.be/zO2S1cC7FVM)
 
 ## Project Structure
