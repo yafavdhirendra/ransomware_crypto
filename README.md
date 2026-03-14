@@ -43,7 +43,7 @@ This project is ideal for learning **practical cryptography, secure file handlin
 ## Quick Start 
 ```bash 
 # Clone the repository
-git clone https://github.com/yafavdhirendra/ransomware_adv.git
+git clone https://github.com/yafavdhirendra/ransomware_crypto.git
 cd ransomeware_adv
 
 # run the main file
@@ -51,8 +51,8 @@ python3 main.py  # windows
 python main.py   # Linux
 ```
 
-**Expected Output**
-[ADD YOUR APPLICATION HOMEPAGE SCREENSHORT HERE]
+**Demo Video**
+[![Watch the video](https://img.youtube.com/vi/zO2S1cC7FVM/0.jpg)](https://youtu.be/zO2S1cC7FVM)
 
 ## Project Structure
 ```
